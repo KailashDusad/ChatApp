@@ -1,0 +1,61 @@
+/* Jai Shree Ram */
+
+#form-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    /* margin-top: 80px; */
+}
+#form input{
+    padding: 12px;
+    margin: 10px;
+    margin-top: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    color: white;
+    width: 400px;
+    /* margin: auto; */
+
+}
+#form label{
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    /* margin-left: 100px; */
+}
+#submit-btn{
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+#submit-btn:hover{
+    color: white;
+    background-color: black;
+}
+#form-container::before{
+    content: '';
+    background: url('/static/signup2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
