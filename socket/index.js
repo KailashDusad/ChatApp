@@ -5,6 +5,7 @@ const http = require('http');
 const express = require('express')
 const socketIO = require('socket.io');
 const cors = require('cors');
+const path = require('path')
 const app = express();
 app.use(cors());
 
@@ -15,6 +16,13 @@ const io = socketIO(server, {
       methods: ["GET", "POST"]
     }
   });
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, '/static/pug'))
+// app.use(cors());
+app.use('/static', express.static('static'));
+app.get('/', (req,res)=>{
+    res.status(200).render('index.pug');
+})
 
 const users = {};
 // io.on --> It will handle all the users(or we can say it will handle the whole connection)
