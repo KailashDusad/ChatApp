@@ -1,0 +1,49 @@
+/* Jai Shree Ram */
+/* Jai Shree Ram */
+h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+}
+body{
+    background: linear-gradient(to bottom, white,black);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 87vh;
+    width: 80vw;
+    border: 2px solid black;
+    margin: auto;
+    padding-top: 50px;
+    /* background: linear-gradient(to bottom, white,black); */
+}
+form input{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+form label{
+    width: 50%;
+    font-weight: bold;
+}
+#signup{
+    width: 22%;
+    height: 35px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(to bottom, green ,black);
+    color: white;
+    font-weight: bold;
+}
