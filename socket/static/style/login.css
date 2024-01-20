@@ -1,5 +1,4 @@
 /* Jai Shree Ram */
-/* Jai Shree Ram */
 h2{
     text-align: center;
     margin: 0;
@@ -36,7 +35,7 @@ form label{
     width: 50%;
     font-weight: bold;
 }
-#signup{
+#login{
     width: 22%;
     height: 35px;
     margin: 10px;
@@ -45,5 +44,11 @@ form label{
     padding: 5px;
     background: linear-gradient(to bottom, green ,black);
     color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+form a{
+    /* text-decoration: none; */
+    color: black;
     font-weight: bold;
 }
