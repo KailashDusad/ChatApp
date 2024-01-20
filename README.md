@@ -1,7 +1,7 @@
-### VISIT THE WEB ---> HTTPS://DUSAD.TECH
+#### VISIT THE WEB ---> HTTPS://DUSAD.TECH
 # ChatApp
 
-ChatApp is a real-time chat application built with Node.js, Express, and Socket.IO. It uses HTML and CSS for the frontend and JavaScript for the backend.
+ChatApp is a real-time chat application built with Node.js, Express, and Socket.IO. It uses Pug and CSS for the frontend and JavaScript for the backend.
 
 ## Features
 
