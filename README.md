@@ -27,7 +27,11 @@ To get started with the ChatApp, follow these steps:
   ```
 4. Start the server:
   ```sh
-  npm start
+  node index.js 
+  ```
+or
+```sh
+  nodemon index.js 
   ```
 
 The application will be running at `http://localhost:5001`.
