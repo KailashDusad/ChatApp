@@ -1,0 +1,36 @@
+<!-- Jai Shree Ram -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's chat</title>
+    <link rel="stylesheet" href="../static/style/style.css">
+    <link rel="stylesheet"  media="screen and (max-width:850px)" href="../static/style/mobile.css">
+    <link rel="icon" href="../static/icon.png">
+
+    <!-- We need to add a js file in this file to emit or connect to out socket.io server -->
+    <script defer src="http://localhost:5001/socket.io/socket.io.js"></script>
+
+    <!-- Afeter adding defer, script files will be downloaded in background or afeter the html and css files  -->
+    <script defer src="../static/js/client.js"></script>
+</head>
+<body>
+    <div class="box">
+
+        <nav>
+            <img class="logo" src="../static/chat4bg.png" alt="chat icon">
+            <h2>Start a Conversation</h2>
+        </nav>
+        
+        <div class="container">
+            <!-- <div class="message left">Guest: Hii!!</div>
+            <div class="message right">You: Hii, Is there is someone</div> -->
+        </div>
+    <form action="/" id="message-sender">
+        <input type="text" name="message" id="message">
+        <button class="btn" type="submit">Send</button>
+    </form>
+    </div>
+</body>
+</html>
