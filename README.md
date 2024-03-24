@@ -37,7 +37,7 @@ or
 The application will be running at `http://localhost:5001`.
 
 
-####Rember cors origin to your local IP
+#### Remember to chage the cors origin to your local IP
 
 ## File Structure
 
