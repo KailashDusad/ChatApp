@@ -1,4 +1,4 @@
-#### VISIT THE WEB ---> HTTPS://DUSAD.TECH
+
 # ChatApp
 
 ChatApp is a real-time chat application built with Node.js, Express, and Socket.IO. It uses Pug and CSS for the frontend and JavaScript for the backend.
@@ -35,6 +35,7 @@ or
   ```
 
 The application will be running at `http://localhost:5001`.
+####Rember cors origin to your local IP
 
 ## File Structure
 
